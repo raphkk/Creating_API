@@ -1,0 +1,16 @@
+//Rest files are great cause they let you run network requests from VS code
+
+###
+Get http://localhost:3000/api/stock?stock=mrna&password=1234
+
+###
+POST http://localhost:3000/api/test
+Content-Type: application/json
+
+{
+  "message": "Hello world"
+}
+
+###
+Get http://localhost:3000/api/testParams/dynamicWord
+
